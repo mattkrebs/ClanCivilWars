@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<% include partial/head %>
+
+</head>
+
+<body id="page-top" class="index">
+<% include partial/nav %>
+
+
+<section id="clan">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2><%= name %></h2>
+            <hr class="star-primary">
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h4>Invite Url: <span><a href="<%= invite_url %>"> <%= invite_url %></a></span></h4>
+      </div>
+  </div>
+</section>
+
+<% include partial/foot %>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+<% include partial/footer %>
+
+
+</body>
+
+</html>
