@@ -1,6 +1,6 @@
 var firebase = require('firebase');
 
-var destiny = require('destiny-client')('e6c8aa0810464e039c8fca61bbb594a4')
+var destiny = require('./destiny-client')('e6c8aa0810464e039c8fca61bbb594a4')
 
 var baseUrl = "http://localhost:3000/";
 
