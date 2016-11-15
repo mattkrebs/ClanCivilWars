@@ -11,8 +11,8 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "destiny-client": "file://destiny-client",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "firebase": "^3.5.3",
-    "firebase-admin": "^4.0.0"
+    "firebase": "^3.5.3"
   }
 }
